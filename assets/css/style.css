@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -25,7 +26,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
-
+ .hero-container .chhotu {
+  text-shadow: 5px 5px red;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -36,6 +39,13 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   z-index: 99999;
   transition: 0.5s;
+}
+.cde{
+  height: 260px;
+  
+}
+.copyright a:hover{
+  color: white;
 }
 
 .back-to-top i {
@@ -978,6 +988,10 @@ section {
 .team {
   background: #fff;
   padding: 60px 0;
+}
+.abc {
+  width: 300px;
+  height: 250px;
 }
 
 .team .member {
